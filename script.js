@@ -26,7 +26,7 @@ for (let i = 1; i <= 47; i++) {
 
 // Chọn lá bài
 function selectCard(card, cardIndex) {
-  if (selectedCount <= 20) {
+  if (selectedCount < 20) {
     if (!selectedCards.includes(cardIndex)) {
       selectedCards.push(cardIndex);
       selectedCount++;
