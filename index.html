@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+    .header {
+      background-image: url("images/REAU.png");
+      background-size: cover;
+      height: 200px; /* Điều chỉnh chiều cao của phần đầu trang */
+    }
+  </style>
+</head>
   <title>Power by FinnVnoi</title>
   <style>
     body {
       background-image: url(images/background.jpg);
-      background-size: centre;
+      background-size: center;
       position: relative;
     }
 
@@ -32,6 +40,8 @@
       color: gold
     }
     #startButton {
+    width: 1200px;
+    height: 60px;
     font-size: 24px;
     padding: 10px 20px;
     margin-left: 55px;
@@ -41,7 +51,22 @@
     padding: 10px 20px;
     margin: 55px;
     }
+    .hidden-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    }
 
+    .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    }
+
+    .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    }
   </style>
 </head>
 <body>
@@ -51,7 +76,6 @@
     <div id="hiddenCards"></div>
     <div id="selectedCards"></div>
     <button id="addCardButton" onclick="addCard()">Thêm lá bài</button>
-    <button id="resetButton" onclick="resetGame()" style="display: none;">Reset</button>
   </div>
   <script src="script.js"></script>
 </body>
