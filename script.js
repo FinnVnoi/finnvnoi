@@ -77,6 +77,10 @@ function startGame() {
 
     const removeButton = document.createElement("button");
     removeButton.textContent = "X";
+    removeButton.style.marginLeft = "55px";
+    removeButton.style.marginTop = "5px";
+    removeButton.style.fontSize = "24px";
+    removeButton.style.padding = "10px 20px";
     removeButton.addEventListener("click", function(event) {
       event.stopPropagation();
       removeHiddenCard(cardIndex);
@@ -84,6 +88,8 @@ function startGame() {
 
     const starButton = document.createElement("button");
     starButton.textContent = "+";
+    starButton.style.fontSize = "24px";
+    starButton.style.padding = "10px 20px";
     starButton.addEventListener("click", function(event) {
       event.stopPropagation();
       addStar(cardIndex);
@@ -91,6 +97,8 @@ function startGame() {
 
     const unstarButton = document.createElement("button");
     unstarButton.textContent = "-";
+    unstarButton.style.fontSize = "24px";
+    unstarButton.style.padding = "10px 20px";
     unstarButton.addEventListener("click", function(event) {
       event.stopPropagation();
       removeStar(cardIndex);
@@ -144,6 +152,10 @@ function renderHiddenCards() {
 
     const removeButton = document.createElement("button");
     removeButton.textContent = "X";
+    removeButton.style.marginLeft = "55px";
+    removeButton.style.marginTop = "5px";
+    removeButton.style.fontSize = "24px";
+    removeButton.style.padding = "10px 20px";
     removeButton.addEventListener("click", function(event) {
       event.stopPropagation();
       removeHiddenCard(card);
@@ -151,6 +163,8 @@ function renderHiddenCards() {
 
     const starButton = document.createElement("button");
     starButton.textContent = "+";
+    starButton.style.fontSize = "24px";
+    starButton.style.padding = "10px 20px";
     starButton.addEventListener("click", function(event) {
       event.stopPropagation();
       addStar(card);
@@ -158,6 +172,8 @@ function renderHiddenCards() {
 
     const unstarButton = document.createElement("button");
     unstarButton.textContent = "-";
+    unstarButton.style.fontSize = "24px";
+    unstarButton.style.padding = "10px 20px";
     unstarButton.addEventListener("click", function(event) {
       event.stopPropagation();
       removeStar(card);
@@ -260,6 +276,10 @@ function addCard() {
       }
       const removeButton = document.createElement("button");
       removeButton.textContent = "X";
+      removeButton.style.marginLeft = "55px";
+      removeButton.style.marginTop = "5px";
+      removeButton.style.fontSize = "24px";
+      removeButton.style.padding = "10px 20px";
       removeButton.addEventListener("click", function(event) {
         event.stopPropagation();
         removeHiddenCard(randomCard);
@@ -267,6 +287,8 @@ function addCard() {
 
       const starButton = document.createElement("button");
       starButton.textContent = "+";
+      starButton.style.fontSize = "24px";
+      starButton.style.padding = "10px 20px";
       starButton.addEventListener("click", function(event) {
         event.stopPropagation();
         addStar(randomCard);
@@ -274,6 +296,8 @@ function addCard() {
 
       const unstarButton = document.createElement("button");
       unstarButton.textContent = "-";
+      unstarButton.style.fontSize = "24px";
+      unstarButton.style.padding = "10px 20px";
       unstarButton.addEventListener("click", function(event) {
         event.stopPropagation();
         removeStar(randomCard);
