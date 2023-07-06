@@ -14,7 +14,7 @@ const hiddenCardCount = 3;
 // Tạo các lá bài trên trang chủ
 document.getElementById("startButton").disabled = true;
 const cardContainer = document.getElementById("cardContainer");
-for (let i = 1; i <= 50; i++) {
+for (let i = 1; i <= 47; i++) {
   const card = document.createElement("div");
   card.className = "card";
   card.style.backgroundImage = `url(images/card${i}.jpg)`;
@@ -26,18 +26,18 @@ for (let i = 1; i <= 50; i++) {
 
 // Chọn lá bài
 function selectCard(card, cardIndex) {
-  if (selectedCount < 10) {
+  if (selectedCount <= 20) {
     if (!selectedCards.includes(cardIndex)) {
       selectedCards.push(cardIndex);
       selectedCount++;
-      card.style.border = "3px solid yellow";
+      card.style.border = "5px solid yellow";
     } else {
       selectedCards = selectedCards.filter(item => item !== cardIndex);
       selectedCount--;
       card.style.border = "none";
     }
   }
-  if (selectedCount === 10) {
+  if (selectedCount === 20) {
     document.getElementById("startButton").disabled = false;
   } else {
     document.getElementById("startButton").disabled = true;
@@ -64,6 +64,12 @@ function startGame() {
 
   renderHiddenCards();
 
+  const card = document.createElement("div");
+    card.className = "card";
+    card.style.backgroundImage = `url(images/card${cardIndex}.jpg)`;
+    card.addEventListener("click", function() {
+    });
+
   // Hiển thị lá bài ẩn
   const hiddenCardsContainer = document.getElementById("hiddenCards");
   hiddenCardsContainer.innerHTML = "";
@@ -83,7 +89,7 @@ function startGame() {
     removeButton.style.padding = "10px 20px";
     removeButton.addEventListener("click", function(event) {
       event.stopPropagation();
-      removeHiddenCard(cardIndex);
+      revealHiddenCard(cardIndex);
     });
 
     const starButton = document.createElement("button");
@@ -257,7 +263,7 @@ function removeStar(card) {
 
 // Thêm lá bài
 function addCard() {
-  if (selectedCount === 10) {
+  if (selectedCount === 20) {
     const availableCards = selectedCards.filter(card => !hiddenCards.includes(card) && !removedCards.includes(card));
     if (availableCards.length === 0) {
       alert("Thẻ bài của bạn đã hết");
