@@ -43,14 +43,9 @@
   </tr>
 </table>
 
-```txt
-> build something useful
-> deploy it on a real server
-> break it
-> debug it
-> learn why it broke
-> rebuild it better
-```
+<div align="center">
+  <img src="./assets/bubbles.svg" width="100%" alt="Animated floating bubbles divider" />
+</div>
 
 - 🎓 Studying **Computer Networks & Data Communications** at UIT - VNUHCM
 - 🌐 Building real-world web apps and services with public domains
@@ -93,21 +88,28 @@
 
 <br />
 
-```yaml
-main_stack:
-  web: [HTML, CSS, JavaScript, PHP]
-  backend: [PHP, Python, Node.js, FastAPI]
-  database: [MySQL, PostgreSQL]
-  devops: [Linux, Ubuntu, Docker, Nginx, Apache, Git, Bash, Cloudflare]
-  networking: [Computer Networks, Server Deployment, System Fundamentals]
-currently_learning:
-  - Data Structures & Algorithms
-  - Object-Oriented Programming
-  - Database Design
-  - Docker & CI/CD
-  - Backend Architecture
-  - Network Engineering
-```
+<table>
+  <tr>
+    <td><b>🌐 Web</b></td>
+    <td>HTML · CSS · JavaScript · PHP · React basics</td>
+  </tr>
+  <tr>
+    <td><b>⚙️ Backend</b></td>
+    <td>PHP · Python · Node.js · FastAPI · API design</td>
+  </tr>
+  <tr>
+    <td><b>🗄️ Database</b></td>
+    <td>MySQL · PostgreSQL basics · Query design</td>
+  </tr>
+  <tr>
+    <td><b>🚀 DevOps</b></td>
+    <td>Linux · Ubuntu · Docker · Nginx · Apache · Git · Bash · Cloudflare</td>
+  </tr>
+  <tr>
+    <td><b>🧠 Learning</b></td>
+    <td>Data Structures & Algorithms · OOP · CI/CD · Backend Architecture · Network Engineering</td>
+  </tr>
+</table>
 
 ---
 
@@ -201,15 +203,25 @@ mindmap
 
 ## 📈 Learning Progress
 
-```txt
-Backend Development      ████████░░  80%
-Web Development          ████████░░  80%
-Database Design          ███████░░░  70%
-Linux Server Deploy      ███████░░░  70%
-Networking Fundamentals  ██████░░░░  60%
-Data Structures & Algo   ██████░░░░  60%
-Docker & CI/CD           █████░░░░░  50%
-```
+<div align="center">
+
+<img src="https://img.shields.io/badge/Backend%20Development-80%25-38BDF8?style=for-the-badge" alt="Backend Development 80%" />
+<img src="https://img.shields.io/badge/Web%20Development-80%25-22C55E?style=for-the-badge" alt="Web Development 80%" />
+<img src="https://img.shields.io/badge/Database%20Design-70%25-F59E0B?style=for-the-badge" alt="Database Design 70%" />
+
+<br />
+<br />
+
+<img src="https://img.shields.io/badge/Linux%20Server%20Deploy-70%25-8B5CF6?style=for-the-badge" alt="Linux Server Deploy 70%" />
+<img src="https://img.shields.io/badge/Networking%20Fundamentals-60%25-0EA5E9?style=for-the-badge" alt="Networking Fundamentals 60%" />
+<img src="https://img.shields.io/badge/Data%20Structures%20%26%20Algo-60%25-EC4899?style=for-the-badge" alt="Data Structures and Algorithms 60%" />
+
+<br />
+<br />
+
+<img src="https://img.shields.io/badge/Docker%20%26%20CI%2FCD-50%25-2563EB?style=for-the-badge" alt="Docker and CI/CD 50%" />
+
+</div>
 
 ---
 
@@ -247,11 +259,9 @@ Docker & CI/CD           █████░░░░░  50%
 
 ## ⚡ What I'm Building Toward
 
-```txt
-Software that works locally is good.
-Software that runs on a real server is better.
-Software that survives users, bugs, logs, traffic, and bad days — that's engineering.
-```
+> Software that works locally is good.  
+> Software that runs on a real server is better.  
+> Software that survives users, bugs, logs, traffic, and bad days — that's engineering.
 
 I'm currently growing toward roles such as:
 
