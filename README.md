@@ -8,8 +8,8 @@
 <br />
 <br />
 
-<a href="https://finnvnoi.top">
-  <img src="https://img.shields.io/badge/Portfolio-finnvnoi.top-38BDF8?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+<a href="https://finnvnoi.top/nuoitoi">
+  <img src="https://img.shields.io/badge/Portfolio-finnvnoi.top%2Fnuoitoi-38BDF8?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
 </a>
 <a href="https://shop.finnvnoi.top">
   <img src="https://img.shields.io/badge/Shop-shop.finnvnoi.top-22C55E?style=for-the-badge&logo=shopify&logoColor=white" alt="Shop" />
@@ -77,7 +77,7 @@
 
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="48" height="48" alt="Linux" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg" width="48" height="48" alt="Ubuntu" />
+  <img src="https://cdn.simpleicons.org/ubuntu/E95420" width="48" height="48" alt="Ubuntu" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="48" height="48" alt="Docker" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="48" height="48" alt="Git" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="48" height="48" alt="GitHub" />
@@ -116,19 +116,19 @@ currently_learning:
 <table>
   <tr>
     <td width="50%">
-      <h3>🌐 Finnvnoi Website</h3>
+      <h3>🌐 FinnVnoi Website</h3>
       <p>
         A personal website with online games and interactive features, deployed on a real domain and server.
       </p>
       <p>
         <b>Tech:</b> HTML, CSS, JavaScript, PHP, MySQL, Linux, Nginx
       </p>
-      <a href="https://finnvnoi.top">
-        <img src="https://img.shields.io/badge/Visit-finnvnoi.top-38BDF8?style=for-the-badge&logo=google-chrome&logoColor=white" />
+      <a href="https://finnvnoi.top/nuoitoi">
+        <img src="https://img.shields.io/badge/Visit-finnvnoi.top%2Fnuoitoi-38BDF8?style=for-the-badge&logo=google-chrome&logoColor=white" />
       </a>
     </td>
     <td width="50%">
-      <h3>🛒 Finnvnoi Shop</h3>
+      <h3>🛒 FinnVnoi Shop</h3>
       <p>
         A mini e-commerce platform with product management, cart flow, authentication, voucher/order logic, and payment-oriented workflows.
       </p>
@@ -269,8 +269,8 @@ My long-term direction is to become the kind of engineer who can design, build, 
 
 <div align="center">
 
-<a href="https://finnvnoi.top">
-  <img src="https://img.shields.io/badge/Website-finnvnoi.top-38BDF8?style=for-the-badge&logo=google-chrome&logoColor=white" />
+<a href="https://finnvnoi.top/nuoitoi">
+  <img src="https://img.shields.io/badge/Portfolio-finnvnoi.top%2Fnuoitoi-38BDF8?style=for-the-badge&logo=google-chrome&logoColor=white" />
 </a>
 <a href="https://shop.finnvnoi.top">
   <img src="https://img.shields.io/badge/Shop-shop.finnvnoi.top-22C55E?style=for-the-badge&logo=shopify&logoColor=white" />
