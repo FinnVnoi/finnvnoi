@@ -27,9 +27,21 @@
 
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" /> About Me
 
-Hi, I'm **Doan Dang Nguyen** — a student of **Computer Networks and Data Communications** at the **University of Information Technology, VNU-HCM**.
-
-I like building things that are not only written in code, but also **deployed, tested, and actually usable**. My current focus is the intersection of **web development**, **backend systems**, **databases**, **Linux servers**, **DevOps**, and **network engineering**.
+<table>
+  <tr>
+    <td width="58%">
+      <p>
+        Hi, I'm <b>Doan Dang Nguyen</b> — a student of <b>Computer Networks and Data Communications</b> at the <b>University of Information Technology, VNU-HCM</b>.
+      </p>
+      <p>
+        I like building things that are not only written in code, but also <b>deployed, tested, and actually usable</b>. My current focus is the intersection of <b>web development</b>, <b>backend systems</b>, <b>databases</b>, <b>Linux servers</b>, <b>DevOps</b>, and <b>network engineering</b>.
+      </p>
+    </td>
+    <td width="42%" align="center">
+      <img src="./assets/cyber-noir.gif" width="360" alt="Cyber noir coding mood" />
+    </td>
+  </tr>
+</table>
 
 ```txt
 > build something useful
@@ -63,7 +75,19 @@ I like building things that are not only written in code, but also **deployed, t
 
 ### Tools / Platforms
 
-<img src="https://skillicons.dev/icons?i=linux,ubuntu,docker,git,github,nginx,apache,vscode,powershell" alt="tools" />
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="48" height="48" alt="Linux" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg" width="48" height="48" alt="Ubuntu" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="48" height="48" alt="Docker" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="48" height="48" alt="Git" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="48" height="48" alt="GitHub" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" width="48" height="48" alt="Nginx" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-original.svg" width="48" height="48" alt="Apache" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="48" height="48" alt="VS Code" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" width="48" height="48" alt="PowerShell" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" width="48" height="48" alt="Bash" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg" width="48" height="48" alt="Cloudflare" />
+</p>
 
 </div>
 
@@ -74,7 +98,7 @@ main_stack:
   web: [HTML, CSS, JavaScript, PHP]
   backend: [PHP, Python, Node.js, FastAPI]
   database: [MySQL, PostgreSQL]
-  devops: [Linux, Ubuntu, Docker, Nginx, Apache, Git]
+  devops: [Linux, Ubuntu, Docker, Nginx, Apache, Git, Bash, Cloudflare]
   networking: [Computer Networks, Server Deployment, System Fundamentals]
 currently_learning:
   - Data Structures & Algorithms
