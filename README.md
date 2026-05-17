@@ -230,7 +230,6 @@ mindmap
 - 🥉 **Third Prize** — Provincial Robotics Competition, Grade 10
 - 🥉 **Third Prize** — Provincial Robotics Competition, Grade 11
 - 🤖 Robotics team member: robot design, control systems, and teamwork under pressure
-- 🌍 **IELTS 5.5**
 - 💻 Practicing algorithms on **LeetCode** and **Codeforces**
 - 🌐 Built and deployed real websites/services on personal domains
 
